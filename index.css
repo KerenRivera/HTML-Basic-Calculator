@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0%;
+    
 }
 
 .calculator{
@@ -15,7 +16,7 @@
 
 }
 
-result {
+#result {
     width: 100%;
     padding: 10px;
     font-size: 25px;
@@ -45,4 +46,27 @@ button {
 
 button:hover {
     background-color: #ddd;
-}               
+}       
+
+.clear {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.number, .decimal {
+    background-color: white;
+    color: #333;
+}
+
+.operator {
+    background-color: #276FF5;
+    color: #fff;
+    
+}
+
+.equal {
+    background-color: #4CAF50;
+    color: #fff;
+    grid-row: span 3;
+
+}
